@@ -70,6 +70,7 @@ def 一天的流程():
     """
     思考昨天哪里做的不好，并进行改进
     """
+    朋友圈发广告()
     # 修复系统bug
     bugs = get_bugs()  # https://github.com/likangwei/666/issues
     for bug in bugs:
